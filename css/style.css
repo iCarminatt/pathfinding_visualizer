@@ -1,0 +1,46 @@
+body {
+
+}
+
+.centered-block {
+    width: 100%; /* set an specific width */
+    margin: 0 auto ; /* set top/bottom margin to 0 and left/right to AUTO */
+    text-align: center; /* center the text inside the block */
+}
+
+.container {
+    display: flex;
+    justify-content: center;    /* horizontal center */
+    align-items: center;        /* vertical center */
+    height: 70vh;              /* full viewport height */
+}
+
+.rectangle {
+    width: 1700px;
+    height: 480px;
+    background-color: lightgray;
+    border: 2px solid #333;
+    border-radius: 4px;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+}
+
+.algo-button {
+    border: 2px solid #333;
+    color: black;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin: auto 12px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.algo-button:hover {
+    background-color: rosybrown;
+}
