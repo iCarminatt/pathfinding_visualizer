@@ -15,17 +15,22 @@ body {
     height: 70vh;              /* full viewport height */
 }
 
-.rectangle {
-    width: 1700px;
+#rectangle {
+    display: grid;
+    width: 90%;
+    max-width: 1700px;
     height: 480px;
     background-color: lightgray;
     border: 2px solid #333;
     border-radius: 4px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(2, 1fr);
 }
 
 .button-row {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .algo-button {
@@ -43,4 +48,9 @@ body {
 
 .algo-button:hover {
     background-color: rosybrown;
+}
+
+.card {
+    border: 1px;
+    border-radius: 4px;
 }

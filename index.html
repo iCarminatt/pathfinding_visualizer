@@ -8,26 +8,23 @@
         content="Page built with the intent of displaying the use o pathfinding algorithms." />
     <link rel="icon" href="/assets/icons/fav_icon.png" type="image/x-icon" />
     <link rel="stylesheet" href="css/style.css" />
-    <script src="js/main.js" defer></script>
+    <script defer type="text/javascript" src="js/main.js"></script>
+    <script defer type="text/javascript" src="js/algorithms/astar.js"></script>
+    <script defer type="text/javascript" src="js/algorithms/bfs.js"></script>
+    <script defer type="text/javascript" src="js/algorithms/dfs.js"></script>
+    <script defer type="text/javascript" src="js/algorithms/dijkstra.js"></script>
     <title>Pathfinding Visualizer</title>
 </head>
 <body>
-<h1 class="centered-block">Pathfinding Algorithms Demonstration</h1>
-<div class="container">
-    <div class="rectangle"></div>
-</div>
-<div class="button-row">
-<button id="astar-btn" class="algo-button" type="button">ASTAR</button>
-<button id="bfs-btn" class="algo-button" type="button">BFS</button>
-<button id="dfs-btn" class="algo-button" type="button">DFS</button>
-<button id="dijkstra-btn" class="algo-button" type="button">DIJKSTRA</button>
-</div>
-<footer>
-
-</footer>
-<script src="js/algorithms/astar.js"></script>
-<script src="js/algorithms/bfs.js"></script>
-<script src="js/algorithms/dfs.js"></script>
-<script src="js/algorithms/dijkstra.js"></script>
+    <h1 class="centered-block">Pathfinding Algorithms Demonstration</h1>
+    <div class="container">
+        <div id="rectangle"></div>
+    </div>
+    <div class="button-row">
+        <button id="astar-btn" class="algo-button" type="button">ASTAR</button>
+        <button id="bfs-btn" class="algo-button" type="button">BFS</button>
+        <button id="dfs-btn" class="algo-button" type="button">DFS</button>
+        <button id="dijkstra-btn" class="algo-button" type="button">DIJKSTRA</button>
+    </div>
 </body>
 </html>
